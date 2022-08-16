@@ -16,13 +16,7 @@ class Product {
   private double totalPrice;
 
   // constructor
-  Product(String pname, int qty, 
-              double price, double totalPrice) {
-    this.pname = pname;
-    this.qty = qty;
-    this.price = price;
-    this.totalPrice = totalPrice;
-  }
+  
 
   // getter methods
   public String getPname() {
@@ -34,10 +28,8 @@ class Product {
   public double getPrice() {
     return price;
   }
-  public double getTotalPrice() {
-    return totalPrice;
-  }
-
+  
+  
   // displayFormat
   public static void displayFormat() {
     System.out.print(
